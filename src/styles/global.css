@@ -11,7 +11,7 @@ html, body{
 }
 
 body{
-    background: radial-gradient(at top, rgb(2, 78, 43) 1%, rgb(0, 14, 3) 100%);
+    background: linear-gradient(rgb(0, 0, 0) 20%, rgb(2, 48, 0) 150%);
     background-repeat: no-repeat;
 }
 
@@ -41,6 +41,7 @@ nav {
 
 nav .links {
     display: inline-block;
+    font-size: large;
     text-align: right;
 }
 
