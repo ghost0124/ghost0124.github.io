@@ -6,6 +6,7 @@ export default function WhatIsCthulhuMythos() {
         <Layout>
             <div>
                 <h1>About Cthulhu Mythos</h1>
+                
             </div>
         </Layout>
     )
