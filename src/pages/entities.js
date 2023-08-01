@@ -7,7 +7,6 @@ import 'react-tabs/style/react-tabs.css'
 import cthulhu from '../../public/entities/cthulhu-image.jpg'
 import yog from '../../public/entities/yog.jpeg'
 import dagon from '../../public/entities/dagon.jpg'
-import azatoth from '../../public/entities/azatoth.jpg'
 import tsathoggua from '../../public/entities/tsathoggua.jpg'
 import chaugnar from '../../public/entities/chaugnar.jpg'
 import ghatanothoa from '../../public/entities/ghatanothoa.jpg'
@@ -21,6 +20,38 @@ import ran from '../../public/entities/rhan-tegoth.jpg'
 import shaurash from '../../public/entities/shauras.webp'
 import umr from '../../public/entities/umrattawil.jpg'
 import yig from '../../public/entities/yig.png'
+import hagarg from '../../public/entities/hagarg.jpg'
+import lobon from '../../public/entities/lobon.webp'
+import lilith from '../../public/entities/lilith.webp'
+import oukranos from '../../public/entities/oukranos.webp'
+import tamash from '../../public/entities/tamash.webp'
+import zokalar from '../../public/entities/zokalar.webp'
+
+/*Outer gods*/
+
+import azatoth from '../../public/entities/azatoth.jpg'
+import abhoth from '../../public/entities/abhot.webp'
+import cxaxukluth from '../../public/entities/Cxaxukluth.webp'
+import darkness from '../../public/entities/darkness.png'
+import dendrrah from '../../public/entities/dendraa.webp'
+import namelessmist from '../../public/entities/nameless.png'
+import noth from '../../public/entities/noth-yidik.webp'
+import nyarlathotep from '../../public/entities/nyarlahotep.webp'
+import shub from '../../public/entities/shub-niggurath.webp'
+import trunembra from '../../public/entities/trunembra.jpg'
+import tulzscha from '../../public/entities/tulzscha.webp'
+
+/*Elder gods */
+
+
+import bast from '../../public/entities/bast.webp'
+import hypnos from '../../public/entities/hypnos.jpg'
+import orryx from '../../public/entities/oryx.webp'
+/*import oztalun from '../../public/entities/no.jpg'*/
+import nodens from '../../public/entities/nodens.webp'
+/*import shavalyoth from '../../public/entities/azatoth.jpg'*/
+import vorvadoss from '../../public/entities/vorvadoss.jpg'
+
 
 
 /*
@@ -79,7 +110,6 @@ export default function Entities() {
                     <Tab>The Great Ones</Tab>
                     <Tab>The Outer Gods</Tab>
                     <Tab>The Elder Gods</Tab>
-                    <Tab>The Great Ones</Tab>
                 </TabList>
                 <TabPanel>
                     <Tabs defaultIndex={1}>
@@ -306,16 +336,75 @@ export default function Entities() {
                             <Tab>Lilith</Tab>
                             <Tab>Oukranos</Tab>
                             <Tab>Tamash</Tab>
-                            <Tab>Zo-Kalar</Tab>
                         </TabList>
                         <TabPanel>
                             <Container>
                                 <Row>
                                     <Col>
-                                        <p>Cthulhu</p>
+                                        <p>Hagarg Ryonis</p>
                                     </Col>
                                     <Col width={600}>
-                                        <img src={cthulhu} className="image" />
+                                        <img src={hagarg} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Karakal</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={zokalar} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Lobon</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={lobon} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Lilith</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={lilith} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Oukranos</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={oukranos} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Tamash</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={tamash} className="image" />
                                     </Col>
                                 </Row>
                             </Container>
@@ -342,10 +431,142 @@ export default function Entities() {
                             <Container>
                                 <Row>
                                     <Col>
+                                        <p>Abhoth</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={abhoth} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
                                         <p>Azatoth</p>
                                     </Col>
                                     <Col width={600}>
                                         <img src={azatoth} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Cxaxukluth</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={cxaxukluth} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Darkness</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={darkness} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>D'endrrah</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={dendrrah} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>The Nameless Mist/Magnum Innominandum</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={namelessmist} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Noth-Yidik</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={noth} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Nyarlathotep</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={nyarlathotep} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Shub-Niggurath</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={shub} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Tru'nembra</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={trunembra} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Tulzscha</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={tulzscha} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Zog-Sothoth</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={yog} className="image" />
                                     </Col>
                                 </Row>
                             </Container>
@@ -367,35 +588,80 @@ export default function Entities() {
                             <Container>
                                 <Row>
                                     <Col>
-                                        <p>Azatoth</p>
+                                        <p>Bast</p>
                                     </Col>
                                     <Col width={600}>
-                                        <img src={azatoth} className="image" />
+                                        <img src={bast} className="image" />
                                     </Col>
                                 </Row>
                             </Container>
                         </TabPanel>
-                    </Tabs>
-                </TabPanel>
-                <TabPanel>
-                    <Tabs defaultIndex={5}>
-                        <TabList>
-                            <Tab>Lobon</Tab>
-                            <Tab>Nath-Horthath</Tab>
-                            <Tab>Oukranos</Tab>
-                            <Tab>Tamash</Tab>
-                            <Tab>Zo-Kalar</Tab>
-                            <Tab>Hagarg Ryonis</Tab>
-                            <Tab>Karakal</Tab>
-                        </TabList>
                         <TabPanel>
                             <Container>
                                 <Row>
                                     <Col>
-                                        <p>Azatoth</p>
+                                        <p>Hypnos</p>
                                     </Col>
                                     <Col width={600}>
-                                        <img src={azatoth} className="image" />
+                                        <img src={hypnos} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Orryx</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={orryx} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Oztalun</p>
+                                    </Col>
+                                    <Col width={600}>
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Nodens</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={nodens} className="image" />
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Shavalyoth</p>
+                                    </Col>
+                                    <Col width={600}>
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </TabPanel>
+                        <TabPanel>
+                            <Container>
+                                <Row>
+                                    <Col>
+                                        <p>Vorvadoss</p>
+                                    </Col>
+                                    <Col width={600}>
+                                        <img src={vorvadoss} className="image" />
                                     </Col>
                                 </Row>
                             </Container>

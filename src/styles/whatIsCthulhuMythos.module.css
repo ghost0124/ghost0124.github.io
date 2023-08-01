@@ -1,0 +1,7 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: larger;
+    grid-gap: 40px;
+    align-items: left;
+}

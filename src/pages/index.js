@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import * as styles from "../styles/home.module.css"
-import lovecraft from '../../static/lovecraft.jpg'
+import lovecraft from '../../public/lovecraft.jpg'
 
 export default function Home() {
   return (
