@@ -1,0 +1,175 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+  background: linear-gradient(-45deg, #f095cb, #f060b6, #96005c, #410027);
+  background-size: 400% 400%;
+  animation: pinkGlow 15s ease infinite;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%
+}
+
+.content {
+  position: relative;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.love {
+  position: relative;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+  border-radius: 1rem;
+}
+
+/* Keyframes for gradient shift */
+@keyframes pinkGlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.hidden {
+  opacity: 0;
+  transform: scale(0.8);
+  pointer-events: none; /* prevents clicking when hidden */
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: auto;
+}
+
+/* Main container */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+   display: flex;               /* horizontal layout */
+  justify-content: center;     /* center horizontally */
+  align-items: center;         /* center vertically if needed */
+  gap: 1rem;                   /* spacing between buttons */
+  width: 100%;                 /* optional: full width container */
+  margin-top: 1rem;
+}
+
+/* Hero section */
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+
+.love {
+    margin-top: 2.5rem;
+}
+
+.hero .subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cta, .ctan {
+  text-decoration: none;
+  padding: 0.85rem 2rem;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(255,255,255,0.3);
+}
+
+.cta {
+  background: #ff5c8d;
+  color: #fff;
+}
+
+.cta:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px #ff5c8d;
+}
+
+.ctan {
+  background: #fff;
+  color: #ff2a6d;
+}
+
+.ctan:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px #ff2a6d;
+}
+
+#btnNo {
+  position: absolute; /* allows it to move */
+  top: 100px; /* initial position */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: rgba(255,255,255,0.2);
+  padding: 1rem;
+  border-radius: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.card span {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
