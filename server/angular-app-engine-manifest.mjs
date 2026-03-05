@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'womans-day',
+  basePath: '/',
   allowedHosts: [],
   supportedLocales: {
   "en-US": ""
