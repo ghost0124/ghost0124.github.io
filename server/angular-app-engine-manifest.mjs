@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/womans-day',
+  basePath: 'https://ghost0124.github.io/womans-day',
   allowedHosts: [],
   supportedLocales: {
   "en-US": ""
