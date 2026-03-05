@@ -34,7 +34,8 @@
             },
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+            "baseHref": "https://ghost0124.github.io/ghost0124.github.io/womans-day/"
           },
           "configurations": {
             "production": {
